@@ -1,0 +1,9 @@
+<mvc:View controllerName="com.shweta.shwetaui5fioridemo1.controller.App"
+    displayBlock="true"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+
+<!-- This is view container    -->
+    <App id="app">
+    </App>
+</mvc:View>

@@ -1,0 +1,6 @@
+<mvc:View controllerName="com.shweta.shwetaui5fioridemo1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="I am View1">
+    </Page>
+</mvc:View>
