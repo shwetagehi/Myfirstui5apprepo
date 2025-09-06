@@ -1,6 +1,7 @@
 <mvc:View controllerName="com.shweta.shwetaui5fioridemo1.controller.View2"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
-    <Page id="page" title="I am View2">
+    <Page id="page" title="I am View2" showNavButton="true" navButtonPress="onPress">
+       <!-- <Button text="Go to view 1" press="onPress"></Button> -->
     </Page>
 </mvc:View>

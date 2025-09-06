@@ -5,6 +5,10 @@ sap.ui.define([
 
     return Controller.extend("com.shweta.shwetaui5fioridemo1.controller.View1", {
         onInit() {
+        },
+
+        onPress() {
+            this.getOwnerComponent().getRouter().navTo("RouteView2");
         }
     });
 });

@@ -2,5 +2,6 @@
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
     <Page id="page" title="I am View1">
+        <Button text="Go to second view" press="onPress"></Button>
     </Page>
 </mvc:View>
