@@ -1,6 +1,9 @@
 <mvc:View controllerName="com.shweta.shwetaui5fioridemo1.controller.View1"
     xmlns:mvc="sap.ui.core.mvc"
-    xmlns="sap.m" xmlns:l="sap.ui.layout">
+    xmlns="sap.m" 
+    xmlns:l="sap.ui.layout"   
+    xmlns:f="sap.ui.layout.form"
+    xmlns:core="sap.ui.core">
 
     <Page id="IdPgView1" title="I am View1">
     <content>
@@ -115,6 +118,30 @@
              </l:Grid>
         </Panel>
 
+    <!-- Simple form demo -->
+
+    <f:SimpleForm title="Employee Details (Simple form demo)" editable="true" layout="ResponsiveGridLayout"
+    labelSpanL="5" labelSpanM="5" emptySpanL="0" emptySpanM="0" columnsL="3" columnsM="2">
+        <f:content>
+            <core:Title text="Employee details"></core:Title>
+            <Label text="Employee Id"></Label>
+            <Input ></Input>
+             <Label text="Employee Name"></Label>
+            <Input ></Input>
+            <Label text="Employee Designation"></Label>
+            <Input ></Input>
+
+            <core:Title text="Contact details"></core:Title>
+            <Label text="Employee Email"></Label>
+            <Input ></Input>
+            <Label text="Employee Phone No."></Label>
+            <Input ></Input>
+
+            <core:Title text="Skill details"></core:Title>
+            <Label text="Employee Skill"></Label>
+            <Input ></Input>
+        </f:content>
+    </f:SimpleForm>
     </content>
 
     <!-- footer demo -->
