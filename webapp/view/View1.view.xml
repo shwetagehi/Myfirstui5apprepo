@@ -3,11 +3,10 @@
     xmlns="sap.m">
     <Page id="page" title="I am View1">
     <content>
-        <Text text="Welcome to SAPUI5" textAlign="Center" width="100%" class= "sapMH1FontSize"></Text>
-
-        <Label text="Enter your name" required="true" class="sapUiMediumMarginBegin"></Label>
-        <Input width="30%" maxLength="10" value="Shweta" class="sapUiTinyMarginBegin"></Input>
-        <Button text="submit" type="Emphasized" class="sapUiTinyMarginBegin"></Button>
+        <Text id="idTxtWelcome" text="Welcome to SAPUI5" textAlign="Center" width="100%" class= "sapMH1FontSize"></Text>
+        <Label id="idLblName" text="Enter your name" required="true" class="sapUiMediumMarginBegin"></Label>
+        <Input id="idIpName"  width="30%" maxLength="10" value="Shweta" class="sapUiTinyMarginBegin" enabled="true"></Input>
+        <Button id="idBtnSubmit" text="submit" type="Emphasized" class="sapUiTinyMarginBegin" press="onSubmit"></Button>
 
     </content>
 
