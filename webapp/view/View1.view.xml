@@ -142,6 +142,54 @@
             <Input ></Input>
         </f:content>
     </f:SimpleForm>
+
+
+    <!-- VBOX Demo  -->
+
+    <VBox >
+        <Button text="Button1"></Button>
+        <Button text="Button2"></Button>
+    </VBox>
+
+    <!-- HBOX Demo -->
+
+    <HBox >
+        <Button text="Button1"></Button>
+        <Button text="Button2"></Button>
+    </HBox>
+
+    <!-- FlexBox Demo -->
+
+    <FlexBox justifyContent="End" alignItems="End" height="100%">
+        <Button text="Go" type="Accept"></Button>
+        <Button text="Reset" type="Reject" class = 'sapUiTinyMarginBegin'></Button>
+    </FlexBox>
+
+
+    <!-- ObjectHeader, its sub-parts and IconTabBar Demo -->
+        <ObjectHeader  title="Shweta" number="3500000" numberUnit="INR" backgroundDesign="Solid">
+            <attributes> 
+                <ObjectAttribute title="Employee Id" text="100001"></ObjectAttribute>
+                <ObjectAttribute title="Designation" text="Manager"></ObjectAttribute>
+            </attributes>
+            <statuses>
+                <ObjectStatus text="PERMANENT" state="Success"></ObjectStatus>
+            </statuses>
+        </ObjectHeader>
+
+        <IconTabBar >
+            <items>
+                <IconTabFilter icon="sap-icon://information" >
+                    <Text text="I am Information Tab"></Text>
+                </IconTabFilter>
+                <IconTabFilter icon="sap-icon://notes">
+                    <Text text="I am Notes Tab"></Text>
+                </IconTabFilter>
+                <IconTabFilter icon="sap-icon://attachment">
+                    <Text text="This is Files tab"></Text>
+                </IconTabFilter>
+            </items>
+        </IconTabBar>
     </content>
 
     <!-- footer demo -->
