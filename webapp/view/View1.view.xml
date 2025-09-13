@@ -190,12 +190,32 @@
                 </IconTabFilter>
             </items>
         </IconTabBar>
+
+        <!-- Validations Demo -->
+        <!-- There are 2 types of validations - Mandatory Field Validation and Data Format Validations -->
+        <!-- These are types of Data format validations -  -->
+        <!-- 1. Alphabet validation -->
+        <!-- 2. Numeric Validation -->
+        <!-- 3. AlphaNumeric Validation -->
+        <!-- 4. Length Validation -->
+        <!-- 5. Max Length Validation -->
+
+        <f:SimpleForm title="Employee Details" editable="true" layout="ResponsiveGridLayout"
+    labelSpanL="3" labelSpanM="3" emptySpanL="5" emptySpanM="5" columnsL="3" columnsM="2">
+        <f:content>
+            
+            <Label text="Employee Id" required="true"></Label>
+            <Input id="idEmpid" maxLength="10"></Input>
+            
+        </f:content>
+    </f:SimpleForm>
     </content>
 
     <!-- footer demo -->
     <footer>
         <Bar id="_IDGenBar" >
             <contentRight>
+                <Button text="Validate" type="Accept" press="onValidate"></Button>
                 <Button id="_IDGenButton" text="Go to second view" press="onPress"></Button>
             </contentRight>
         </Bar>
